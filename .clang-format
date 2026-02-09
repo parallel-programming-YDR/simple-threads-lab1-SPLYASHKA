@@ -1,0 +1,52 @@
+BasedOnStyle: Microsoft
+Language: Cpp
+
+UseTab: Never
+IndentWidth: 2
+TabWidth: 2
+ColumnLimit: 120
+
+BreakBeforeBraces: Allman
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AlwaysBreakAfterDefinitionReturnType: None
+AlwaysBreakAfterReturnType: None
+AllowAllParametersOfDeclarationOnNextLine: false
+
+IndentCaseLabels: false
+IndentCaseBlocks: true
+BraceWrapping:
+  AfterControlStatement: true
+  AfterFunction: true
+  BeforeElse: true
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
+
+SpaceBeforeParens: ControlStatements
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeRangeBasedForLoopColon: true
+SpaceAfterCStyleCast: false
+SpaceInEmptyBlock: false
+SpaceAfterTemplateKeyword: true
+
+BreakConstructorInitializers: AfterColon
+ConstructorInitializerIndentWidth: 2
+AllowAllConstructorInitializersOnNextLine: false
+
+LambdaBodyIndentation: Signature
+AlignOperands: true
+AlignAfterOpenBracket: Align
+ContinuationIndentWidth: 2
+
+MaxEmptyLinesToKeep: 1
+NamespaceIndentation: None
+ReflowComments: false
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+AlignTrailingComments: true
+BreakStringLiterals: true
+PenaltyBreakBeforeFirstCallParameter: 200
